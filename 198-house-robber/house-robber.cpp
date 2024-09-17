@@ -3,7 +3,7 @@ public:
     int n;
     int dp[101];
     int solve(vector<int>& nums, int i){
-        // steal 
+        // 1. steal 
         //2. skip
         if(i>=n)return 0;
         if(dp[i] != -1) return dp[i];
